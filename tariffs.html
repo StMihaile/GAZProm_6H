@@ -246,7 +246,61 @@
       </div>
       <div class="order">
         <h2 class="order__title">Заказать SIM-карту Газпромбанк Мобайл</h2>
-        
+        <form class="order__form" action="#" method="POST">
+          <ul class="order__list">
+            <li class="order__list-item order__list-item--blue">
+              <span class="order__step">Шаг 1</span>
+              <span class="order__step-text">Заказ SIM-карты</span>
+            </li>
+            <li class="order__list-item">
+              <span class="order__step">Шаг 2</span>
+              <span class="order__step-text">Подтверждение</span>
+            </li>
+            <li class="order__list-item">
+              <span class="order__step">Шаг 3</span>
+              <span class="order__step-text">Выбор тарифа</span>
+            </li>
+            <li class="order__list-item">
+              <span class="order__step">Шаг 4</span>
+              <span class="order__step-text">Доставка</span>
+            </li>
+          </ul>
+        <div class="order__radio">
+          <input type="radio" checked>Пластиковая
+          </div>
+           <div class="order__radio">
+          <input type="radio">eSIM
+          </div>
+
+           <div class="order__name">
+            <input type="text" placeholder="Иванов Иван Иванович">
+           </div>
+           <div class="order__tel">
+            <input type="tel" placeholder="+7(9__)___-__-__">
+           </div>
+           <div class="order__email">
+            <input type="email" placeholder="ivan@email.ru">
+           </div>
+           <div class="order__sale">
+            <input type="checkbox"> Перенести номер и&nbsp;получать +5&nbsp;ГБ ежемесячно 
+            <svg class="order__icon" width="20" height="20" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-info"></use>
+            </svg>
+           </div>
+           <div class="order__rules">
+            <input type="checkbox"> Согласен с&nbsp;<a class="order__link" href="#">Правилами заказа и&nbsp;доставки SIM-карт</a>, на&nbsp;обработку в&nbsp;соответствии с&nbsp;ними моих персональных данных и&nbsp;получение рекламы.
+            <svg class="order__icon" width="20" height="20" aria-hidden="true">
+            <use xlink:href="images/sprite.svg#icon-info"></use>
+            </svg>
+           </div>
+           <button class="order__btn">Продолжить</button>
+        </form>
+
+        <div class="order__privacy">
+          <span class="order__privacy-text">
+            Этот сайт защищен reCAPTCHA, и к нему применяются <a class="order__privacy-link" href="#" >Политика конфиденциальности Google</a> и <a class="order__privacy-link" href="#" >Условия предоставления услуг</a>
+          </span>
+        </div>
       </div>
     </div>
   </main>

@@ -81,7 +81,7 @@
             <a class="tariffs__link" href="#">Подробнее о&nbsp;тарифе</a>
 
             <div class="tariffs__radio--cheap">
-              <input class="tariffs__radio-button" type="radio" id="tf-200" checked />
+              <input class="tariffs__radio-button" type="radio"  name="try" id="tf-200" checked />
               <span class="tariffs__radio-price">200 ₽</span>
               <span class="tariffs__radio-month">/ месяц</span>
               <span class="tariffs__radio-description"><b>400 ₽</b> в месяц без трат</span>
@@ -89,14 +89,14 @@
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-1080">
+              <input class="tariffs__radio-button" type="radio" name="try" id="tf-1080">
               <span class="tariffs__radio-description">Предоплата за&nbsp;6&nbsp;месяцев</span>
               <span class="tariffs__radio-price">1080 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>1320 ₽</b></span>
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-1680">
+              <input class="tariffs__radio-button" type="radio" name="try" id="tf-1680">
               <span class="tariffs__radio-description">Предоплата за&nbsp;12&nbsp;месяцев</span>
               <span class="tariffs__radio-price">1680 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>3120 ₽</b></span>
@@ -151,7 +151,7 @@
             <a class="tariffs__link" href="#">Подробнее о&nbsp;тарифе</a>
 
             <div class="tariffs__radio--cheap">
-              <input class="tariffs__radio-button" type="radio" id="tf-300" checked />
+              <input class="tariffs__radio-button" type="radio" name="do" id="tf-300" checked />
               <span class="tariffs__radio-price">300 ₽</span>
               <span class="tariffs__radio-month">/ месяц</span>
               <span class="tariffs__radio-description"><b>600 ₽</b> в месяц без трат</span>
@@ -159,14 +159,14 @@
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-1620">
+              <input class="tariffs__radio-button" type="radio" name="do" id="tf-1620">
               <span class="tariffs__radio-description">Предоплата за&nbsp;6&nbsp;месяцев</span>
               <span class="tariffs__radio-price">1620 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>1980 ₽</b></span>
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-2520">
+              <input class="tariffs__radio-button" type="radio" name="do" id="tf-2520">
               <span class="tariffs__radio-description">Предоплата за&nbsp;12&nbsp;месяцев</span>
               <span class="tariffs__radio-price">2520 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>4680 ₽</b></span>
@@ -220,7 +220,7 @@
             <a class="tariffs__link" href="#">Подробнее о&nbsp;тарифе</a>
 
             <div class="tariffs__radio--cheap">
-              <input class="tariffs__radio-button" type="radio" id="tf-450" checked />
+              <input class="tariffs__radio-button" type="radio" name="win" id="tf-450" checked />
               <span class="tariffs__radio-price">450 ₽</span>
               <span class="tariffs__radio-month">/ месяц</span>
               <span class="tariffs__radio-description"><b>900 ₽</b> в месяц без трат</span>
@@ -228,14 +228,14 @@
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-2430">
+              <input class="tariffs__radio-button" type="radio" name="win" id="tf-2430">
               <span class="tariffs__radio-description">Предоплата за&nbsp;6&nbsp;месяцев</span>
               <span class="tariffs__radio-price">2430 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>2970 ₽</b></span>
             </div>
 
             <div class="tariffs__radio">
-              <input class="tariffs__radio-button" type="radio" id="tf-3780">
+              <input class="tariffs__radio-button" type="radio" name="win" id="tf-3780">
               <span class="tariffs__radio-description">Предоплата за&nbsp;12&nbsp;месяцев</span>
               <span class="tariffs__radio-price">3780 ₽</span>
               <span class="tariffs__radio-description-price">Экономия <b>7020 ₽</b></span>
@@ -266,10 +266,10 @@
             </li>
           </ul>
         <div class="order__radio">
-          <input type="radio" checked>Пластиковая
+          <input type="radio" value="plastic"  name="card" checked>Пластиковая
           </div>
            <div class="order__radio">
-          <input type="radio">eSIM
+          <input type="radio" value="esim" name="card" >eSIM
           </div>
 
            <div class="order__name">
@@ -282,7 +282,7 @@
             <input type="email" placeholder="ivan@email.ru">
            </div>
            <div class="order__sale">
-            <input type="checkbox"> Перенести номер и&nbsp;получать +5&nbsp;ГБ ежемесячно 
+            <input type="checkbox" value="" > Перенести номер и&nbsp;получать +5&nbsp;ГБ ежемесячно 
             <svg class="order__icon" width="20" height="20" aria-hidden="true">
             <use xlink:href="images/sprite.svg#icon-info"></use>
             </svg>
